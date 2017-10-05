@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ade.makananresepku.DetailkuActivity">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="150dp"
+        android:src="@drawable/kepiting"
+
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Bahan-Bahan :"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:text="kepiting fresh 5 ekor ( ukuran jumbo )
+saus tiram 5 sendok makan
+saus tomat 3 sendok makan
+cabe rawit, 15 buah ( ulek halus )
+merica bubuk ½ sendok teh
+Garam halus dan air matang secukupnya
+Penyedap rasa/vetsin dan gula pasir secukupnya."
+        />
+
+
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Cara Membuat :"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:text="-Bersihkan terlebih dahulu kepiting fresh yang beruluran jumbo dengan air yang mengalir hingga benar – benar bersih.
+-Selanjutnya rebus air hingga mendidih dan masukan kepiting fresh yang telah dibersihkan sampai matang.
+-Angakat, tiriskan dan sisihkan dahulu.
+-Haluskan terlebih dahulu bumbu seperti bawang putih, bawang merah dan cabai merah ulek sampai benar – benar halus.
+-Kemudian tumis bumbu yang telah dihaluskan aduk hingga rata dan masak sampai tercium aroma harum.
+-Masukan daun salam, lengkuas, jahe dan serai yang telah digeprek aduk rata.
+-Tuangkan air matang secukupnya dan biarkan sampai mendidih.
+-Masukan kepiting fresh yang telah direbus kedalam bumbu tumisan, aduk hingga rata.
+-Tambahakan penyedap rasa, garam dapur, gula pasir dan merica bubuk aduk hingga rata dan bumbu larut.
+-Lalu tambahkan pula cabe rawit, saus tomat dan saus tiram aduk hingga benar – benar rata dan masak hingga matang sempurna.
+-Jika dirasa sudah benar – benar matang, angkat dan tuangkan kedalam wadah saji.
+-Dan sajikan selagi hangat.."
+        />
+</LinearLayout>
+</ScrollView>
