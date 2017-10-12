@@ -33,7 +33,7 @@
         android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+    android:id="@+id/tr"
 
 
         android:text="kepiting fresh 5 ekor ( ukuran jumbo )
@@ -62,7 +62,7 @@ Penyedap rasa/vetsin dan gula pasir secukupnya."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-
+    android:id="@+id/td"
 
         android:text="-Bersihkan terlebih dahulu kepiting fresh yang beruluran jumbo dengan air yang mengalir hingga benar – benar bersih.
 -Selanjutnya rebus air hingga mendidih dan masukan kepiting fresh yang telah dibersihkan sampai matang.
